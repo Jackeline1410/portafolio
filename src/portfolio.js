@@ -35,15 +35,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Que es lo que hago?",
+  subTitle: "Soy una desarrolladora front-end que ama la tecnología, algunas herramientas que he utilizado:",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Desarrollo interfaces interactivas front para tus aplicaciones web"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Consumo e Interactuo con APIs backend"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ verificación de llamadas APIs con postman y BBDD Sql"
     )
   ],
 
@@ -70,15 +70,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    },    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -90,18 +82,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -115,9 +95,9 @@ const educationInfo = {
     {
       schoolName: "Platzi",
       logo: require("./assets/images/platziweb.webp"),
-      subHeader: "Cursos Front-end, desarrollo web, programacion orientada a objetos",
+      subHeader: "Cursos Front-end, desarrollo web, programación orientada a objetos",
       duration: "2020 - nunca pares de aprender",
-      desc: "Complete la escuela de desarrollo web, reactjs, etc etc....",
+      desc: "Completé la escuela de desarrollo web, reactjs, etc etc....",
       descBullets: [
         "Estudiante destacada ...",
         "Estudiante ..."
@@ -148,8 +128,8 @@ const techStack = {
       progressPercentage: "30%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "AWS",
+      progressPercentage: "40%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -161,28 +141,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Desarrolladora y Product Owner",
+      role: "Desarrolladora y Product Owner Ad Honorem",
       company: "ASEDUIS",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/aseduisLogo.png"),
       date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Dise;o y desarrollo del portal impulsauis.com  y aseduis.com",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Dise;o y plan de trabajo para el desarrollo de los portales",
+        "Desarrollo en reactjs del portal impulsauis.com, hecho en reactjs consumiendo recursos en AWS"
       ]
     },
     {
-      role: "Front-End Developer",
+      role: "Ingeniera de procesos, manejo de personal y proyectos",
       company: "COTECMAR",
       companylogo: require("./assets/images/cotecmarLogo.png"),
       date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -199,29 +172,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Proyectos destacados front",
+  subtitle: "Algunos proyectos que he realizado con mis actuales conocimientos en front",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/impulsaLogo.svg"),
+      projectName: "Impulsa UIS",
+      projectDesc: "Participe en el dise;o y desarrollo del portal de la UIS en donde se permite registrar emprendimientos a sus egresados o estudiantes",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visita el sitio",
+          url: "https://impulsauis.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/ingeviajesLogo.png"),
       projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "Este fue mi primer proyecto front, lo hice en wordpress, lo considero importante por que fue mi primer acercamiento a este hermoso mundo de la programaci'on",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visita el sitio",
+          url: "https://ingeviajes.com.co/"
         }
       ]
     }
@@ -233,9 +206,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Logros y Certificados 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Logros, Certificados, Reconocimientos y otras cosas guay que he realizado!",
 
   achievementsCards: [
     {
@@ -344,10 +317,10 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contactame ☎️"),
+  title: emoji("Contáctame ☎️"),
   subtitle:
     "Quieres discutir sobre algun proyecto o simplemente saludarme? Puedes contactarme por correo o a mi numero de trabajo.",
-  number: "+92-0000000000",
+  number: "+34 617376659",
   email_address: "ing.jacke0@gmail.com"
 };
 
